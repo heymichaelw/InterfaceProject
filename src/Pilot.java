@@ -19,4 +19,8 @@ public class Pilot extends Soldier implements Shootable, Flyable {
     public String land(){
         return "Safely touched down";
     }
+
+    public String refuel(){
+        return "This refuel is from the pilot directly";
+    }
 }
